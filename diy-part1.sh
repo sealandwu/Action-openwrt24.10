@@ -23,4 +23,6 @@ echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >>
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone --depth=1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+
 
